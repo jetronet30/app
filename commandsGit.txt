@@ -1,0 +1,3 @@
+git log --graph --all --oneline   #  ყველას  ნახვა
+
+git checkout   53ca660   გადასვა   შესაბამისზე  
