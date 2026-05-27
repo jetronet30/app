@@ -12,6 +12,8 @@ pip install Pillow
 
 pip install ipython
 
+pip install django-debug-toolbar
+
 django-admin startproject project_name — ახალი პროექტის შექმნა
 django-admin startapp app_name — ახალი app-ის შექმნა
 
