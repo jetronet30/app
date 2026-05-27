@@ -1,9 +1,10 @@
 from django.contrib import admin
 from django.http import request
+from django.conf.urls.static import static
 from django.urls import include, path
+
 from app import settings
-from main import views
-from goods import views
+
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -17,3 +18,4 @@ if settings.DEBUG:
     urlpatterns = [
         path('__debug__/', include(debug_toolbar.urls)),
     ] + urlpatterns
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

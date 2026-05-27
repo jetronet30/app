@@ -28,6 +28,8 @@ pip install django-debug-toolbar
 
 py manage.py shell
 
+py manage.py debugsqlshell
+
 py manage.py dumpdata goods.Categories > fixtures/goods/cats.json
 
 $env:PYTHONIOENCODING="utf-8"
