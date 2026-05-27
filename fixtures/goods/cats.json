@@ -1,0 +1,58 @@
+[
+    {
+        "model": "goods.categories",
+        "pk": 2,
+        "fields": {
+            "name": "All product",
+            "slug": "all-product"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 3,
+        "fields": {
+            "name": "Kitchen",
+            "slug": "kitchen"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 4,
+        "fields": {
+            "name": "Bad room",
+            "slug": "bad-room"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 5,
+        "fields": {
+            "name": "Decor",
+            "slug": "decor"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 6,
+        "fields": {
+            "name": "Office",
+            "slug": "office"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 7,
+        "fields": {
+            "name": "Guest Room",
+            "slug": "guest-room"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 8,
+        "fields": {
+            "name": "Furniture",
+            "slug": "furniture"
+        }
+    }
+]
